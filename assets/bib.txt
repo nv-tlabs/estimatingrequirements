@@ -1,0 +1,8 @@
+@InProceedings{Mahmood_2022_CVPR,
+    author    = {Mahmood, Rafid and Lucas, James and Acuna, David and Li, Daiqing and Philion, Jonah and Alvarez, Jose M. and Yu, Zhiding and Fidler, Sanja and Law, Marc T.},
+    title     = {How Much More Data Do I Need? Estimating Requirements for Downstream Tasks},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {275-284}
+}
