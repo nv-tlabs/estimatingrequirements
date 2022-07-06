@@ -336,6 +336,16 @@ figure {
         </div></div>
     </div>
 
+    <section id="videos">
+        <figure style="width: 75%">
+            <video class="centered" width="100%" controls muted loop autoplay>
+                <source src="assets/TwitterPreviewSlides.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </figure>
+    </section>
+
+    <!--
     <section id="teaser">
             <figure style="width: 90%;">
                 <a href="assets/imagenet_regression_summary_v2.png">
@@ -361,6 +371,7 @@ figure {
                 </p>
             </figure>
     </section>
+    -->
 
     <section id="abstract">
         <h2>Abstract</h2>
@@ -401,6 +412,30 @@ figure {
                 for <i>V*+&#964;</i>. Use previous tasks & data sets to 
                 learn a good value for this correction factor.</li>
         </ul>
+    </section>
+
+    <section id="problem">
+    <h2>Main Problem</h2>
+    <hr>
+        <p>
+            Extrapolating the learning curve <b>(Left Figure)</b> on ImageNet as a function
+            of data set size when given 10% of the data set (125, 000 images; dotted curves)
+            and 50% (600, 000 images; dashed curves) using four regression functions <b>(Right Table)</b>. 
+            Vertical lines show how much data we need to
+            meet a target 67% validation accuracy according to each dashed curve.
+            <b>(1)</b> With a small initial set (i.e., 10%), all of the regression functions diverge
+            from the ground truth learning curve. 
+            <b>(2)</b> With enough data (i.e., 50%), the functions accurate extrapolate performance. 
+            <b>(3)</b> Even a small extrapolation error can yield poor data estimates.
+        </p>
+        <figure style="width: 95%;">
+            <a href="assets/imagenet_regression_summary_v2.png">
+                <img width="55%" src="assets/imagenet_regression_summary_v2.png">
+            </a>
+            <a href="assets/Regression_Functions.PNG">
+                <img width="44%" src="assets/Regression_Functions.PNG" style="padding-bottom: 110px">
+            </a>
+        </figure>
     </section>
 
     <section id="method">
